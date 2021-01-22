@@ -12,6 +12,8 @@ downoad the repository and open the index.html
 
 
 ### Screenshots
+![Image of ET support](https://img.shields.io/badge/et%20support-lets%20build%20it-blue)
+![Image of ET support](https://img.shields.io/badge/et%20support-lets%20build%20it-blue)
 
 ### Content
 
