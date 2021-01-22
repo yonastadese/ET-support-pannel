@@ -1,0 +1,408 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    ET support portal
+  </title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+  <!-- CSS Files -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/css/paper-dashboard.css?v=2.0.0" rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="assets/demo/demo.css" rel="stylesheet" />
+<style type="text/css">
+  
+  .body{
+  background-color: #ff4814;
+}
+.carousel{
+  margin-top: 50px;
+}
+.carousel-inner{
+  height: 150px;
+}
+.carousel-caption{
+  color: #000;
+  top: 50%;
+}
+body {
+  background-color: #E8E6DA;
+}
+
+.svg {
+  display: block;
+  margin: 0 auto;
+  margin-top: -20px;
+  float: left;
+}
+.blend {
+  mix-blend-mode: multiply;
+}
+.isolate {
+  isolation: isolate;
+}
+*{padding:0;margin:0;}
+
+.float{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#0C9;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  box-shadow: 2px 2px 3px #999;
+}
+.label-container{
+  position:fixed;
+  bottom:48px;
+  right:105px;
+  display:table;
+  visibility: hidden;
+}
+.label-text{
+  color:#FFF;
+  background:rgba(51,51,51,0.5);
+  display:table-cell;
+  vertical-align:middle;
+  padding:10px;
+  border-radius:3px;
+}
+
+.label-arrow{
+  display:table-cell;
+  vertical-align:middle;
+  color:#333;
+  opacity:0.5;
+}
+.my-float{
+  margin-top:22px;
+}
+a.float + div.label-container {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s ease;
+}
+
+a.float:hover + div.label-container{
+  visibility: visible;
+  opacity: 1;
+}
+
+</style>
+
+</head>
+
+<body class="">  <div class="wrapper ">
+    <div class="sidebar" data-color="white" data-active-color="danger">
+      <!--
+        Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red | yellow"
+    -->
+      <div class="logo">
+          <span style="font-size: larger;padding-left: 15px; color: blue;">     ET-support portal</span>
+          <p style="color: black; padding-left: 5px; font-style: bold;">for programmers..</p>
+                </a>
+        </a>
+      </div>
+      <div class="sidebar-wrapper">
+        <ul class="nav">
+           </li>
+          <li class="active ">
+            <a href="./index.html">
+              <i class="nc-icon nc-lock-circle-open"></i>
+              <p >Welcome</p>
+            </a>
+          </li>
+          <li>
+          <li>
+            <a href="./stuck.html">
+              <i class="nc-icon nc-button-pause"></i>
+              <p> Stuck <span style="color: orange;">??? </span></p>
+            </a>
+         
+            <a href="./learn.html">
+              <i class="nc-icon nc-atom"></i>
+              <p>learn new skill</p>
+            </a>
+          </li>
+          <li>
+            <a href="./documentation.html">
+              <i class="nc-icon nc-single-copy-04"></i>
+              <p>open source</p>
+            </a>
+          </li>
+          <li>
+            <a href="./general.html">
+              <i class="nc-icon nc-settings"></i>
+              <p>General tool</p>
+            </a>
+          </li>
+          <li>
+          <li>
+            <a href="./dashboard.html">
+              <i class="nc-icon nc-paper"></i>
+              <p>small projects</p>
+            </a>
+          </li>
+          <li>
+            <a href="./news.html">
+              <i class="nc-icon nc-tile-56"></i>
+              <p>news</p>
+            </a>
+          </li>
+          <li >
+            <a href="./youtube.html">
+              <i class="nc-icon nc-button-play"></i>
+              <p>youtube channels</p>
+            </a>
+          </li>
+             <li >
+            <a href="./ai.html">
+              <i class="nc-icon nc-vector"></i>
+              <p>Artificial Intelligence</p>
+            </a>
+          </li>
+            <li >
+            <a href="./compete.html">
+              <i class="nc-icon nc-air-baloon"></i>
+              <p>competetive programming</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-panel">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-absolute fixed-top navbar-transparent">
+        <div class="container-fluid">
+          <div class="navbar-wrapper">
+            <div class="navbar-toggle">
+              <button type="button" class="navbar-toggler">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+              </button>
+            </div>
+            <svg class="svg" width="300" height="200.71424" viewBox="0 0 580 800">
+  <path class="k4"
+  style="fill:none;fill-rule:evenodd;stroke:#df871b;stroke-width:80;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
+  d="m 275.924,699.49118 54.75863,60.10532"/>
+  <g class="isolate">
+    <path class="blend t1"
+    style="opacity:1;fill:#dd5d20;fill-opacity:1;fill-rule:evenodd;stroke:#dd5d20;stroke-width:79.81949615;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
+    d="m 215.47816,252.84847 115.22634,0" />
+    <path class="blend t2"
+    d="m 273.09133,252.65768 0,115.22634"
+    style="display:inline;opacity:1;fill:#dd5d20;fill-opacity:1;fill-rule:evenodd;stroke:#0b9444;stroke-width:79.81949615;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" />
+    <path class="blend h1"
+    style="display:inline;opacity:1;fill:#1f91ac;fill-opacity:1;fill-rule:evenodd;stroke:#1f91ac;stroke-width:79.81949615;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
+    d="m 410.71374,252.65768 0,115.22634" />
+    <path class="blend h2"
+    d="m 410.47816,310.44844 115.22634,0"
+    style="opacity:1;fill:#dd5d20;fill-opacity:1;fill-rule:evenodd;stroke:#df871b;stroke-width:79.81949615;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" />
+    <path class="blend i1"
+    d="m 215.47816,448.64847 115.22634,0"
+    style="opacity:1;fill:#dd5d20;fill-opacity:1;fill-rule:evenodd;stroke:#dd5d20;stroke-width:80;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" />
+    <path class="blend i2"
+    style="opacity:1;fill:#dd5d20;fill-opacity:1;fill-rule:evenodd;stroke:#dd5d20;stroke-width:80;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
+    d="m 215.47816,563.85818 115.22634,0" />
+    <path class="blend i3"
+    style="display:inline;opacity:1;fill:#dd5d20;fill-opacity:1;fill-rule:evenodd;stroke:#1f91ac;stroke-width:80;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
+    d="m 273.09133,448.56614 0,115.22634" />
+    <path class="blend n1"
+    d="m 410.71374,448.36614 0,115.22634"
+    style="display:inline;opacity:1;fill:#1f91ac;fill-opacity:1;fill-rule:evenodd;stroke:#da3931;stroke-width:80;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" />
+    <path class="blend n2"
+    style="display:inline;opacity:1;fill:#1f91ac;fill-opacity:1;fill-rule:evenodd;stroke:#da3931;stroke-width:80;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
+    d="m 526.004,448.36614 0,115.22634" />
+    <path class="blend n3"
+    style="fill:none;fill-rule:evenodd;stroke:#0b9444;stroke-width:80;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
+    d="m 410.7,448.46218 115.37,115.013" />
+    <path class="blend k1"
+    style="display:inline;opacity:1;fill:#1f91ac;fill-opacity:1;fill-rule:evenodd;stroke:#da3931;stroke-width:80;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
+    d="m 215.32637,644.48746 0,115.22634" />
+    <path class="blend k2"
+    d="m 215.31263,759.5965 115.37,-115.013"
+    style="fill:none;fill-rule:evenodd;stroke:#1f91ac;stroke-width:80;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" />
+  </g>
+  <path class="h3"
+  d="m 525.41374,252.65768 0,115.22634"
+  style="display:inline;opacity:1;fill:#1f91ac;fill-opacity:1;fill-rule:evenodd;stroke:#1f91ac;stroke-width:79.81949615;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" />
+  <circle class="h4"
+  style="opacity:1;fill:#df871b;fill-opacity:1;stroke:none;stroke-width:80;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
+  cx="526"
+  cy="252.36218"
+  r="40" />
+  <circle class="i4"
+  r="40"
+  cy="448.36218"
+  cx="273"
+  style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:80;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" />
+  <circle class="n4"
+  style="opacity:1;fill:#da3931;fill-opacity:1;stroke:none;stroke-width:80;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
+  cx="410.70001"
+  cy="448.66217"
+  r="40" />
+  <circle class="n5"
+  r="40"
+  cy="563.16217"
+  cx="526"
+  style="opacity:1;fill:#da3931;fill-opacity:1;stroke:none;stroke-width:80;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" />
+  <circle class="k3"
+  r="40"
+  cy="759.39655"
+  cx="215.31264"
+  style="opacity:1;fill:#da3931;fill-opacity:1;stroke:none;stroke-width:80;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" />
+</svg>
+           
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navigation">
+            
+      </nav>
+      <!-- End Navbar -->
+      <!-- <div class="panel-header panel-header-sm">
+
+
+
+</div> -->
+
+      <div class="content">
+        <div class="row">
+
+<!-- Code begins here -->
+
+<a href="./typography.html" class="float" style="z-index: 10000;">
+<i class="fa fa-plus my-float"></i>
+</a>
+<div class="label-container">
+<div class="label-text">Contribute</div>
+<i class="fa fa-play label-arrow"></i>
+</div>
+
+          <div class="col-md-12">
+   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item ">
+      <div class="carousel-caption">
+        <h3><a href="http://www.paulgraham.com/" rel="nofollow">Paul Graham</a></h3>
+        <p> A programming language is for thinking about programs, not for expressing programs you've already thought of. It should be a pencil, not a pen.</p>
+      </div>
+    </div>
+    <div class="carousel-item ">
+      <div class="carousel-caption">
+        <h3><a href="https://en.wikipedia.org/wiki/Raj_Anand" rel="nofollow">Rajanand</a></h3>
+        <p> Debugging is twice as hard as writing the code in the first place.Therfore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.</p>
+      </div>
+    </div>
+    
+    <div class="carousel-item">
+      <div class="carousel-caption">
+        <h3><a href="https://en.wikipedia.org/wiki/Bill_Gates" rel="nofollow">Bill Gates</a></h3>
+        <p>The computer was born to solve problems that did not exist before.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="carousel-caption">
+        <h3><a href="https://en.wikipedia.org/wiki/Linus_Torvalds" rel="nofollow">Linus Torvalds</a></h3>
+        <p>Bad programmers worry about the code. Good programmers worry about data structures and their relationships.</p>
+      </div>
+    </div>
+    <div class="carousel-item active">
+      <div class="carousel-caption">
+        <h3><a href="https://en.wikipedia.org/wiki/Jeremy_Hammond" rel="nofollow">Jeremy Hammond</a></h3>
+        <p>Your mind is programmable - if you're not programming your mind, else will program it for you.</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+   </div>
+          <div class="row">
+       <div>
+      <div class="card" style="width: 20rem; margin-right: 30px; margin-left: 130px;">
+  <div class="card-body">
+    <h4 class="card-title">Rico's cheat sheet</h4>
+    <p class="card-text"> A set of good cheatsheets</p>
+    <a href="https://devdocs.io/" class="btn btn-primary">visit website</a>
+  </div>
+</div>
+</div>
+<div >
+<div class="card text-center" style="width: 20rem; margin-right: 20px;">
+  <div class="card-body">
+    <h4 class="card-title">devhints</h4>
+    <p class="card-text">A one-place well known API Documentation with searchable interface</p>
+    <a href="https://devhints.io/" class="btn btn-primary">Visit website</a>
+  </div>
+</div>
+</div>
+<div class="card text-right" style="width: 20rem; margin-right: 20px;">
+  <div class="card-body">
+    <h4 class="card-title" style="float: left; padding:10px; ">w3schools</h4>
+    <p class="card-text">W3Schools is an educational website for learning web technologies online. Content includes tutorials and references relating to HTML, CSS, JavaScript, JSON, PHP, Python, AngularJS, React.js, SQL, Bootstrap, Sass, Node.js, jQuery, XQuery, AJAX, XML, Raspberry Pi, C++, and Java.</p>
+    <a href="https://www.w3schools.com/" class="btn btn-primary">Visit website</a>
+  </div>
+</div>
+</div>
+</div>
+</div>
+      <footer class="footer footer-black  footer-white ">
+        <div class="container-fluid">
+          <div class="row">
+            
+            <div class="credits ml-auto">
+              <span class="copyright">
+                ©
+                <script>
+                  document.write(new Date().getFullYear())
+                </script>, made with <i class="fa fa-heart heart"></i>  by yonas tadesse
+              </span>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!--   Core JS Files   -->
+  <script src="assets/js/core/jquery.min.js"></script>
+  <script src="assets/js/core/popper.min.js"></script>
+  <script src="assets/js/core/bootstrap.min.js"></script>
+  <script src="assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <!--  Google Maps Plugin    -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+  <!-- Chart JS -->
+  <script src="assets/js/plugins/chartjs.min.js"></script>
+  <!--  Notifications Plugin    -->
+  <script src="assets/js/plugins/bootstrap-notify.js"></script>
+  <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
+  <script src="assets/js/paper-dashboard.min.js?v=2.0.0" type="text/javascript"></script>
+  <!-- Paper Dashboard DEMO methods, don't include it in your project! -->
+  <script src="assets/demo/demo.js"></script>
+
+  
+</body>
+
+</html>
