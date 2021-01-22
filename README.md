@@ -12,8 +12,8 @@ downoad the repository and open the index.html
 
 
 ### Screenshots
-![Image of ET support](https://img.shields.io/badge/et%20support-lets%20build%20it-blue)
-![Image of ET support](https://img.shields.io/badge/et%20support-lets%20build%20it-blue)
+![Image of ET support](https://raw.githubusercontent.com/yonastadese/ET-support-pannel/main/screencapture-file-C-Users-mr-robot-Music-de-support-panel-ET-support-panel-news-html-2021-01-22-00_54_22.png)
+![Image of ET support]https://raw.githubusercontent.com/yonastadese/ET-support-pannel/main/screencapture-file-C-Users-mr-robot-Music-de-support-panel-ET-support-panel-index-html-2021-01-22-00_52_49.png)
 
 ### Content
 
